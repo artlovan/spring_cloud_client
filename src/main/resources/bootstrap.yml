@@ -3,12 +3,12 @@ server:
 
 spring:
   profiles:
-    active: dev
+    active: staging
 
 ---
 spring:
   application:
-    name: spring_cloud_config-client
+    name: config-client
   cloud:
     config:
       uri: http://localhost:8001
