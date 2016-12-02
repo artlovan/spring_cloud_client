@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: spring_cloud_config-client-dev
+  cloud:
+    config:
+      uri: http://localhost:8001
+
+
+
